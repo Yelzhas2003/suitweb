@@ -1,0 +1,145 @@
+body {
+  font-family: 'Playfair Display', sans-serif;
+}
+.page-blue {
+  background-color: #00B4D8;
+}
+
+.page-dark {
+  background-color: #03045E;
+}
+
+.page-light {
+  background-color: #EFEEEF;
+}
+
+.wrapper {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 96px;
+  padding-top: 46px;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.nav-item {
+  margin-left: 100px;
+}
+
+.nav-link {
+  color: black;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+}
+
+.main .sale-desp {
+  font-size: 35px;
+}
+
+.main .sale-title {
+  font-size: 55px;
+  font-weight: 700;
+}
+
+.box {
+  position: relative;
+}
+
+.box-price {
+  position: absolute;
+  right: -100px;
+  text-align: right;
+}
+
+.box-price-old {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.box-price-new {
+  font-size: 42px;
+  font-weight: 700;
+  color: #c30000;
+}
+
+.notice {
+  text-align: center;
+  color: #fff;
+  padding: 50px;
+}
+
+.notice-title {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.notice-title span {
+  font-weight: 700;
+}
+
+.collection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 50px 0;
+}
+
+.collection-item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 60%;
+          flex: 0 0 60%;
+}
+
+.collection-title {
+  font-size: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.collection-desp {
+  font-size: 16px;
+}
+
+footer {
+  text-align: center;
+  background: #03045E;
+  padding: 50px 0px;
+  color: #DDE4F5;
+}
+/*# sourceMappingURL=style.css.map */

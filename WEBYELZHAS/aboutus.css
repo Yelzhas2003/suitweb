@@ -1,0 +1,41 @@
+body {
+  font-family: 'Work Sans' sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+.box-image {
+  display: block;
+  margin: 0 auto;
+  background-color: #1457e9;
+
+}
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #1457e9;
+  color: rgb(0, 0, 0);
+}
+main .title {
+ text-align: right;
+ font-size: 55px;
+ font-weight: 700;
+}
+.wrapper {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+footer {
+  text-align: center;
+  background: #03045E;
+  padding: 50px 0px;
+  color: #ffffff;
+}
+.asd{
+text-align: center;
+}
